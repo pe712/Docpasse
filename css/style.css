@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Lobster&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*_____________________NAVBAR______________*/
+header nav{
+    position: static;
+    background-color: lightgray;
+    width: 100%;
+    padding-top: 50px;
+    justify-content: space-between;
+    display: inline-flex;
+}
+
+.logo{
+    font-family: 'lobster', cursive;
+    font-size: 5em;
+    line-height: 10px;
+    padding: 0.5em 0.5em;
+}
+
+.connexion{
+    font-size: x-large;
+    border-left: blue;
+    border-left-style: solid; 
+    padding: 0.5em 0.3em;
+    list-style: none;
+    padding-right: 3em;
+}
+
+/*_____________________TITRE______________*/
+.titre{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.main_title{
+    font-size: 5em;
+    color: maroon;
+    font-weight: bold;
+}
+
+.sub_title{
+    font-size: 3em;
+    font-weight: normal;
+    font-family: 'Dongle', sans-serif;
+}
+
+.trait{
+    border-top: black solid 3px;
+    margin: 2em 40em;
+}
+
+/*_____________________PRESENTATION______________*/
+.presentation{
+    font-size: 3.5em;
+    color:rgb(64, 137, 233);
+    font-weight: bold;
+    /* background: url(../img/background.jfif) no-repeat; */
+    background-size: cover;
+    list-style: none;
+    height: 22em;
+}
+
+.presentation li{
+    height: 6em;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em 0.2em;
+    display: inline-flex;
+    justify-content: space-between;
+    line-height: 6em;
+}
+
+.grande_div{
+    width: 60%;
+}
+
+.petite_div{
+    width: 40%;
+}
+
+.presentation li div img{
+    height: 100%;
+    max-width: 100%;
+}
+
+/*_____________________BAS DE PAGE______________*/
+.bdp{
+    text-align: center;
+}
+.bdp p{
+    font-size: x-large;
+    font-family: 'Dongle', sans-serif;
+    margin: 0px;
+}
+
+.bdp img{
+    height: 3em;
+}
+
+a:link { color: #000000; text-decoration: none}
+a:visited { color: #000000; text-decoration: none}
+a:hover { color: #192642; text-decoration: underline}
+a:active { color: #000000; text-decoration: none}
+
+.bienvenue{
+    font-family: 'lobster', cursive;
+}
