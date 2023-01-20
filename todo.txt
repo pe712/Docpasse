@@ -1,0 +1,10 @@
+- clean configuration of mysql server
+- reorganize files either :
+      + use a framework (symfony)
+      + use existing work done for course-drapeaux.binets.fr (but not very qualitative)
+      
+ configure mail server -> essential for account settings
+ (need to configure also DNS zone)
+ 
+ if everything is working, try doing the same using docker
+ 
